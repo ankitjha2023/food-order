@@ -1,7 +1,7 @@
 const allFood = [
     {
         name:"breakfast",
-        src:"img-1.png",
+        src:"./img-1.png",
         price:"20$"
     },
     {
