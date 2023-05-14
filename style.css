@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    background-color:rgb(100, 92, 92);
+    padding: 20px 0px;
+}
+
+.navbar button{
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    margin: 0px 20px;
+    border: none;
+    color: white;
+}
+
+main{
+    margin: 100px 0px;
+}
+#food-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.food-box{
+    background-color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+
+
+
+
+#search-container{
+   
+    text-align: center;
+}
+
+#search{
+    padding: 5px;
+    border-radius: 30px;
+    
+    width: 300px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    
+}
+#order-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+}
+.toggleMenu{
+    text-decoration: underline;
+}
+
+@media (max-width:768px) {
+    #order-container{
+        margin-top: 200px;
+    }
+    #food-container{
+        margin-top: 200px;
+    }
+}
+
+button{
+    padding: 5px;
+}
+footer{
+    background-color:rgb(100, 92, 92);
+    padding: 5px;
+    
+    color: white;
+    
+    
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+}
+footer a{
+    color: white;
+}

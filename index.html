@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+     <nav class="navbar">
+    <div class="logo">
+        <h2 style="color: white;">Food Order</h2>
+    </div>
+    <div class="buttons">
+        
+        <button id="home-btn" style="text-decoration: underline;">Home</button>
+        <button id="orders-btn">Orders</button>
+        
+    </div>
+    <div id="search-container">
+        <input type="search" id="search" placeholder="Search Food" autocomplete="off">
+       
+    </div>
+   <h2 style="color: white;"> Total(<span id="total"></span>)</h2>
+   </nav>
+  </header>
+
+  
+   <main>
+     <div id="food-container">
+        
+    </div>
+    <div id="order-container" style="display: none;">
+       
+    </div>
+   </main>
+    <footer>
+        <p>Created By <a href="https://codewithankit.netlify.app" target="_blank">Ankit Jha</a></p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
