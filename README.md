@@ -9,5 +9,9 @@ This is a small web application built using HTML, CSS, and JavaScript that allow
 5. Persist order data in the browser's local storage.
 6. Display the total number of orders.
 
+## Screenshot
+![image](https://github.com/ankitjha2023/food-order/assets/127032700/ffb30f73-7e76-4a45-9249-f683be7f7161)
+
+
 ## Demo
 ('''https://ankitjha2023.github.io/food-order/'')
